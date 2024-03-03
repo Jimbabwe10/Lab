@@ -1,13 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import './Card.js';
+import './Navbar.js';
 
 function App() {
   return (
     <div className="App">
-          <h1>C2-230L</h1>
-          <h2>Section-002</h2>
-          <p>WVU ID800386690</p>
-          <p>Hi I am James</p>
+          <h1 C2-230L>
+              <h2 Section-002>
+                  <p WVU ID800386690>
+                      <p Hi I am James>
+                      </p>
+                  </p>
+               </h2>
+          </h1>
     </div>
   );
 }
