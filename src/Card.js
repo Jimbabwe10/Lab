@@ -3,7 +3,8 @@ import { Card } from 'react-bootstrap';
 
 const CustomCards = () => {
     return (
-        <div class="col">
+        <div class="container">
+        <div class="row">
             <Card>
                 <div class="bg-primary text-white rounded col-sm-6 w-50">
                 <Card.Body>
@@ -34,6 +35,7 @@ const CustomCards = () => {
                 </Card>
                 </Card>
             </Card>
+            </div>
         </div>
     );
 };
