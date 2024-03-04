@@ -5,7 +5,7 @@ const CustomNavbar = () => {
     return (
         <Navbar bg="dark" variant="dark">
             <Navbar.Brand href="#home">Navbar</Navbar.Brand>
-            <Nav className="navbar navbar-light bg-light justify-content-between">
+            <Nav className="navbar navbar-dark bg-dark justify-content-between">
                 <Nav.Link href="#home">Home</Nav.Link>
                 <Nav.Link href="#About">About</Nav.Link>
                 <Nav.Link href="#Contact">Contact</Nav.Link>

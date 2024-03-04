@@ -3,9 +3,9 @@ import { Card } from 'react-bootstrap';
 
 const CustomCards = () => {
     return (
-        <div class="row">
+        <div class="column">
             <Card>
-                <div class="p-3 mb-2 bg-primary text-white">
+                <div class="p-3 mb-2 bg-primary text-white rounded">
                 <Card.Body>
                     <Card.Title>Card title</Card.Title>
                     <Card.Text>
@@ -15,7 +15,7 @@ const CustomCards = () => {
                 </div>
             </Card>
             <Card>
-                <div class="p-3 mb-2 bg-danger text-white">
+                <div class="p-3 mb-2 bg-danger text-white rounded">
                 <Card.Body>
                     <Card.Title>Card title</Card.Title>
                     <Card.Text>
@@ -25,7 +25,7 @@ const CustomCards = () => {
                 </div>
             </Card>
             <Card>
-                <div class="p-3 mb-2 bg-success text-white">
+                <div class="p-3 mb-2 bg-success text-white rounded">
                 <Card.Body>
                     <Card.Title>Card title</Card.Title>
                     <Card.Text>
