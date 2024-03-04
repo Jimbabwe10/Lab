@@ -13,7 +13,6 @@ const CustomCards = () => {
                     </Card.Text>
                     </Card.Body>
                 </div>
-            </Card>
             <Card>
                 <div class="bg-danger text-white rounded col-sm-6">
                 <Card.Body>
@@ -23,7 +22,6 @@ const CustomCards = () => {
                     </Card.Text>
                     </Card.Body>
                 </div>
-            </Card>
             <Card>
                 <div class="bg-success text-white rounded col-sm-6">
                 <Card.Body>
@@ -33,6 +31,8 @@ const CustomCards = () => {
                     </Card.Text>
                     </Card.Body>
                 </div>
+                </Card>
+                </Card>
             </Card>
         </div>
     );
