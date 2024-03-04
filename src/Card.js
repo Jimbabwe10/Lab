@@ -5,7 +5,7 @@ const CustomCards = () => {
     return (
         <div class="col">
             <Card>
-                <div class="p-3 mb-2 bg-primary text-white rounded row-sm-6">
+                <div class="p-3 mb-2 bg-primary text-white rounded col-sm-6">
                 <Card.Body>
                     <Card.Title>Card 01</Card.Title>
                     <Card.Text>
@@ -15,7 +15,7 @@ const CustomCards = () => {
                 </div>
             </Card>
             <Card>
-                <div class="p-3 mb-2 bg-danger text-white rounded row-sm-6">
+                <div class="p-3 mb-2 bg-danger text-white rounded col-sm-6">
                 <Card.Body>
                     <Card.Title>Card 02</Card.Title>
                     <Card.Text>
@@ -25,7 +25,7 @@ const CustomCards = () => {
                 </div>
             </Card>
             <Card>
-                <div class="p-3 mb-2 bg-success text-white rounded row-sm-6">
+                <div class="p-3 mb-2 bg-success text-white rounded col-sm-6">
                 <Card.Body>
                     <Card.Title>Card 03</Card.Title>
                     <Card.Text>
