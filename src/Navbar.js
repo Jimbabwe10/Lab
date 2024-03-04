@@ -5,11 +5,11 @@ const CustomNavbar = () => {
     return (
         <Navbar bg="dark" variant="dark">
             <Navbar.Brand href="#home">Navbar</Navbar.Brand>
-            <Nav class="navbar navbar-dark bg-dark justify-content-between">
+            <Nav class="navbar navbar-dark bg-dark text-light justify-content-between">
                 <form class="form-inline">
                 <Nav.Link href="#home">Home</Nav.Link>
                 <Nav.Link href="#About">About</Nav.Link>
-                    <Nav.Link href="#Contact">Contact</Nav.Link>
+                <Nav.Link href="#Contact">Contact</Nav.Link>
                 </form>
             </Nav>
             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"></input>
