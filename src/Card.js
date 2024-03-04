@@ -4,7 +4,7 @@ import { Card } from 'react-bootstrap';
 const CustomCards = () => {
     return (
         <div class="container">
-        <div class="row">
+        <div class="col">
             <Card>
                 <div class="bg-primary text-white rounded col-sm">
                 <Card.Body>
