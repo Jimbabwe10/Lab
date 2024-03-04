@@ -1,0 +1,21 @@
+import React from 'react';
+import { Card, CardDeck } from 'react-bootstrap';
+
+const CustomCards = () => {
+    return (
+        <CardDeck>
+            <Card>
+                <Card.Img variant="top" src="https://via.placeholder.com/150" />
+                <Card.Body>
+                    <Card.Title>Card 1</Card.Title>
+                    <Card.Text>
+                        Some quick example text to build on the card title and make up the bulk of the card's content.
+                    </Card.Text>
+                </Card.Body>
+            </Card>
+            {/* Add more Card components as needed */}
+        </CardDeck>
+    );
+};
+
+export default CustomCards;
