@@ -1,9 +1,8 @@
 import React from 'react';
-import { Card, CardDeck } from 'react-bootstrap';
+import { Card } from 'react-bootstrap';
 
 const CustomCards = () => {
     return (
-        <CardDeck>
             <Card>
                 <Card.Img variant="top" src="https://via.placeholder.com/150" />
                 <Card.Body>
@@ -23,7 +22,6 @@ const CustomCards = () => {
                 </Card.Body>
             </Card>
             {/* Add more Card components as needed */}
-        </CardDeck>
     );
 };
 
