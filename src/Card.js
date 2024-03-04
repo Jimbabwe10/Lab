@@ -6,16 +6,17 @@ const CustomCards = () => {
         <div class="container">
         <div class="row">
             <Card>
-                <div class="bg-primary text-white rounded col-sm-6 w-50">
+                <div class="bg-primary text-white rounded col-sm">
                 <Card.Body>
                     <Card.Title>Card 01</Card.Title>
                     <Card.Text>
                         Some quick example text to build on the card title and make up the bulk of the card's content.
                     </Card.Text>
-                    </Card.Body>
+                </Card.Body>
                 </div>
+            </Card>
             <Card>
-                <div class="bg-danger text-white rounded col-sm-6 w-50">
+                <div class="bg-danger text-white rounded col-sm">
                 <Card.Body>
                     <Card.Title>Card 02</Card.Title>
                     <Card.Text>
@@ -23,19 +24,18 @@ const CustomCards = () => {
                     </Card.Text>
                     </Card.Body>
                 </div>
+            </Card>
             <Card>
-                <div class="bg-success text-white rounded col-sm-6 w-50">
+                <div class="bg-success text-white rounded col-sm">
                 <Card.Body>
                     <Card.Title>Card 03</Card.Title>
                     <Card.Text>
                         Some quick example text to build on the card title and make up the bulk of the card's content.
                     </Card.Text>
-                    </Card.Body>
+                </Card.Body>
                 </div>
-                </Card>
-                </Card>
             </Card>
-            </div>
+        </div>
         </div>
     );
 };
