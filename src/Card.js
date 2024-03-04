@@ -3,6 +3,7 @@ import { Card } from 'react-bootstrap';
 
 const CustomCards = () => {
     return (
+        <div>
             <Card>
                 <Card.Img variant="top" src="https://via.placeholder.com/150" />
                 <Card.Body>
@@ -22,6 +23,7 @@ const CustomCards = () => {
                 </Card.Body>
             </Card>
             {/* Add more Card components as needed */}
+        </div>
     );
 };
 
