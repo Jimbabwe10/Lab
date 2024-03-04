@@ -12,8 +12,8 @@ const CustomNavbar = () => {
                 <Nav.Link href="#">Contact</Nav.Link>
                 </form>
             </Nav>
-                <input class="form-control mr-sm-1 w-20 ml-auto" ype="search" placeholder="Search" aria-label="Search"></input>
-                <button class="btn btn-outline-success my-2 my-sm-0 ml-auto" type="submit">Search</button>
+                <input class="form-control mr-sm-1" ype="search" placeholder="Search" aria-label="Search"></input>
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
         </Navbar>
     );
 };

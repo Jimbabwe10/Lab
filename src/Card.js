@@ -4,9 +4,9 @@ import { Card } from 'react-bootstrap';
 const CustomCards = () => {
     return (
         <div class="container">
-        <div class="col">
+            <div class="col">
             <Card>
-                <div class="bg-primary text-white rounded col-sm">
+                    <div class="bg-primary text-white rounded col-sm" style={{ width: 400, display: 'inline-flex', margin: 20 }}>
                 <Card.Body>
                     <Card.Title>Card 01</Card.Title>
                     <Card.Text>
@@ -16,7 +16,7 @@ const CustomCards = () => {
                 </div>
             </Card>
             <Card>
-                <div class="bg-danger text-white rounded col-sm">
+                    <div class="bg-danger text-white rounded col-sm" style={{ width: 400, display: 'inline-flex', margin: 20 }}>
                 <Card.Body>
                     <Card.Title>Card 02</Card.Title>
                     <Card.Text>
@@ -26,7 +26,7 @@ const CustomCards = () => {
                 </div>
             </Card>
             <Card>
-                <div class="bg-success text-white rounded col-sm">
+                    <div class="bg-success text-white rounded col-sm" style={{ width: 400, display: 'inline-flex', margin: 20 }}>
                 <Card.Body>
                     <Card.Title>Card 03</Card.Title>
                     <Card.Text>
