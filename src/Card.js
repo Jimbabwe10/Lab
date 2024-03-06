@@ -3,8 +3,8 @@ import { Card } from 'react-bootstrap';
 
 const CustomCards = () => {
     return (
-        <div class="container">
-            <div class="col" style={{ width: 400, display: 'inline-flex'}}>
+        <div>
+            <div class="col" style={{ width: 1400, display: 'inline-flex'}}>
             <Card>
                     <div class="bg-primary text-white rounded col-sm" style={{ width: 400, display: 'inline-flex', margin: 20 }}>
                 <Card.Body>
